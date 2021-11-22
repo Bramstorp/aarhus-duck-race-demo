@@ -1,0 +1,16 @@
+FROM node:alpine as build
+
+WORKDIR /app/frontend
+
+COPY ./frontend/package.json ./
+COPY ./frontend/yarn.lock ./
+
+RUN yarn --silent
+
+COPY ./frontend/ ./
+
+RUN yarn build --silent
+
+FROM nginx:alpine
+COPY --from=build /app/frontend/build /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
