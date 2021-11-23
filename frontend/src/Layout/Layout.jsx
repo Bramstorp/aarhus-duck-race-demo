@@ -5,6 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export const Layout = (props) => (
   <div>
     <Navbar />
-    <div className="container theme-swiss">{props.children}</div>
+    <div className="container">{props.children}</div>
   </div>
 );

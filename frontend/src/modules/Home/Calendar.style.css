@@ -1,0 +1,56 @@
+.title{
+    padding-top: 21px;
+    color:#000000;
+    font-family:Acme;
+    font-size: 29px;
+}
+
+.calendar-countdown{
+    border: black solid 3px;
+    border-radius: 14px;
+}
+
+.calendar-top{
+    padding-top: 10px;
+    background-color: #EEA809;
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.calendar-title{
+    color: #000000;
+    font-family:RoundedMplus1c-Black;
+    font-size:20px;
+    text-align: center;
+}
+
+.calendar-items{
+    border-radius:  0 0 10px 10px;
+}
+
+.calendar-item{
+    text-align: center;
+}
+
+.calendar-item:first-child{
+    border-right: 4px solid #EEA809;
+}
+
+.calendar-item:last-child{
+    border-left: 4px solid #EEA809;
+}
+
+.duck{
+    background-color: green;
+}
+
+.countdown{
+    font-family:RoundedMplus1c-Black;
+    font-size:37px;
+}
+
+.time{
+    font-family:RoundedMplus1c-Black;
+    font-size: 20px;
+}

@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './navbar.style.css';
+
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar primary-color navbar-white navbar-expand-lg">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -19,32 +21,32 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link  color-white" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/concept">
+              <Link className="nav-link color-white" to="/concept">
                 Concept
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/buy">
-                buy
+              <Link className="nav-link color-white" to="/buy">
+                Buy
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/event">
-                event
+              <Link className="nav-link color-white" to="/event">
+                Event
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/prizes">
+              <Link className="nav-link color-white" to="/prizes">
                 Prizes
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/purpose">
+              <Link className="nav-link color-white" to="/purpose">
                 Purpose
               </Link>
             </li>
