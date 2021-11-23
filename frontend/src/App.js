@@ -13,7 +13,7 @@ import { Purpose } from "./modules/Purpose/Purpose"
 
 function App() {
   return (
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={"/aarhus-duck-race-demo"}>
       <Layout>
         <Switch>
           <Route path="/" exact={true} component={Home} />
