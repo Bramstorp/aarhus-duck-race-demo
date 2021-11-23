@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aarhus-duck-race-demo/static/css/main.78f5d38d.chunk.css",
-    "main.js": "/aarhus-duck-race-demo/static/js/main.9fbb5478.chunk.js",
-    "main.js.map": "/aarhus-duck-race-demo/static/js/main.9fbb5478.chunk.js.map",
+    "main.js": "/aarhus-duck-race-demo/static/js/main.5b089850.chunk.js",
+    "main.js.map": "/aarhus-duck-race-demo/static/js/main.5b089850.chunk.js.map",
     "runtime-main.js": "/aarhus-duck-race-demo/static/js/runtime-main.66df1fac.js",
     "runtime-main.js.map": "/aarhus-duck-race-demo/static/js/runtime-main.66df1fac.js.map",
     "static/css/2.383c0125.chunk.css": "/aarhus-duck-race-demo/static/css/2.383c0125.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.b92fd3c0.chunk.js",
     "static/css/main.78f5d38d.chunk.css",
-    "static/js/main.9fbb5478.chunk.js"
+    "static/js/main.5b089850.chunk.js"
   ]
 }
