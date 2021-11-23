@@ -2,57 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './navbar.style.css';
 
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-export const Navbar = () => {
+export const Navigation = () => {
   return (
-    <nav className="navbar primary-color navbar-white navbar-expand-lg">
-      <div className="container-fluid">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link  color-white" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link color-white" to="/concept">
-                Concept
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link color-white" to="/buy">
-                Buy
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link color-white" to="/event">
-                Event
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link color-white" to="/prizes">
-                Prizes
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link color-white" to="/purpose">
-                Purpose
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<>
+<Navbar className="primary-color" expand="lg">
+  <Container>
+    <Navbar.Brand href="/">Home</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/concept">Concept</Nav.Link>
+        <Nav.Link href="/buy">Buy</Nav.Link>
+        <Nav.Link href="/event">Event</Nav.Link>
+        <Nav.Link href="/prizes">Prizes</Nav.Link>
+        <Nav.Link href="/purpose">Purpose</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+</>
   );
 };
