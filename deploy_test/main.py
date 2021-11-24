@@ -8,7 +8,7 @@ import os
 import urllib
 from dotenv import load_dotenv
 load_dotenv()
-DATABASE_URL = "sqlite:///./test.db"
+#DATABASE_URL = "sqlite:///./test.db"
 
 host_server = os.environ.get('host_server')
 db_server_port = urllib.parse.quote_plus(str(os.environ.get('db_server_port')))
@@ -31,7 +31,8 @@ notes = sqlalchemy.Table(
 )
 
 engine = sqlalchemy.create_engine(
-    DATABASE_URL, connect_args={"check_same_thread": False}
+    #DATABASE_URL, connect_args={"check_same_thread": False}
+    DATABASE_URL, pool_size=3, max_overflow=0
 )
 metadata.create_all(engine)
 

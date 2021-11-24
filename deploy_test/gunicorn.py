@@ -5,8 +5,8 @@ load_dotenv()
 
 name = "Gunicorn config for FastAPI - TutLinks.com"
 
-accesslog = "/home/windson/fastapi/gunicorn-access.log"
-errorlog = "/home/windson/fastapi/gunicorn-error.log"
+accesslog = "/home/aarhus-duck-race-demo/deploy_test/gunicorn-access.log"
+errorlog = "/home/aarhus-duck-race-demo/deploy_test/gunicorn-error.log"
 
 bind = "0.0.0.0:8000"
 
