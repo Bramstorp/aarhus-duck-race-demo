@@ -12,9 +12,9 @@ After=network.target
 [Service]
 User=user
 Group=user
-WorkingDirectory=/home/aarhus-duck-race-demo/deploy_test/
-Environment="PATH=/home/aarhus-duck-race-demo/deploy_test/env/bin"
-ExecStart=/home/aarhus-duck-race-demo/deploy_test/env/bin/gunicorn --config /home/aarhus-duck-race-demo/deploy_test/gunicorn.py main:app
+WorkingDirectory=/home/aarhus-duck-race-demo/backendfastapi/
+Environment="PATH=/home/aarhus-duck-race-demo/backendfastapi/env/bin"
+ExecStart=/home/aarhus-duck-race-demo/backendfastapi/env/bin/gunicorn --config /home/aarhus-duck-race-demo/backendfastapi/gunicorn.py main:app
 
 [Install]
 WantedBy=multi-user.target

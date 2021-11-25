@@ -3,10 +3,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-name = "Gunicorn config for FastAPI - TutLinks.com"
+name = "Gunicorn config for FastAPI"
 
-accesslog = "/home/aarhus-duck-race-demo/deploy_test/gunicorn-access.log"
-errorlog = "/home/aarhus-duck-race-demo/deploy_test/gunicorn-error.log"
+accesslog = "/home/aarhus-duck-race-demo/backendfastapi/gunicorn-access.log"
+errorlog = "/home/aarhus-duck-race-demo/backendfastapi/gunicorn-error.log"
 
 bind = "0.0.0.0:8000"
 
