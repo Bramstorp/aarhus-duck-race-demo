@@ -5,9 +5,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .routers import users
 
-
-from .config import settings
-
 app = FastAPI()
 
 origins = [
@@ -30,19 +27,12 @@ app.include_router(users.router)
 async def root():
     return "Home"
 
-def get_db_uri(user, passwd, host, db):
-    return f"postgres://{user}:{passwd}@{host}:5432/{db}"
 
 Tortoise.init_models(['app.models.users'], 'models')
 
 register_tortoise(
     app, 
-    db_url=get_db_uri(
-        user=settings.POSTGRESQL_USERNAME,
-        passwd=settings.POSTGRESQL_PASSWORD,
-        host=settings.POSTGRESQL_HOSTNAME,
-        db=settings.POSTGRESQL_DATABASE
-    ),
+    db_url='sqlite://db.sqlite3',
     modules={
         'models': [
             'app.models.users',

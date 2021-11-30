@@ -30,11 +30,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRESQL_USERNAME=guest
-      - POSTGRESQL_PASSWORD=guest
-      - POSTGRESQL_DATABASE=notes
-    ports: 
-      - "5432:5432"
+      - POSTGRES_USER=bue_strenge_gemmer
+      - POSTGRES_PASSWORD=bue_strenge_gemmer
+      - POSTGRES_DB=bue_strenge_gemmer_dev
 volumes:
   postgres_data:
   node_modules:

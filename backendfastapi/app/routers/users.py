@@ -11,7 +11,7 @@ from ..schemas.users import UserIn_Pydantic, User_Pydantic
 app = FastAPI()
 
 router = APIRouter(
-    tags=["user"],
+    tags=["users"],
     responses={404: {"description": "Not found"}},
 )
 
