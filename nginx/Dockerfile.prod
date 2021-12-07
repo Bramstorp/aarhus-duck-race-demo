@@ -2,10 +2,10 @@ FROM node:alpine as build
 
 WORKDIR /app/frontend
 
-RUN yarn --silent
-
 COPY ./frontend/package.json ./
 COPY ./frontend/yarn.lock ./
+
+RUN yarn --silent
 
 COPY ./frontend/ ./
 
