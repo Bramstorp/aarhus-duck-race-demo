@@ -4,22 +4,22 @@ import "./navbar.style.css";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
     <>
       <Navbar className="primary-color" expand="lg">
         <Container>
-          <Navbar.Brand href="/aarhus-duck-race-demo">Home</Navbar.Brand>
+          <Link className='navbar-brand' to='/'>Home</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/aarhus-duck-race-demo">Home</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/concept">Concept</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/buy">Buy</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/event">Event</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/prizes">Prizes</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/purpose">Purpose</Nav.Link>
+              <Link className='nav-link' to='/concept'>Concept</Link>
+              <Link className='nav-link' to='/buy'>Buy</Link>
+              <Link className='nav-link' to='/event'>Event</Link>
+              <Link className='nav-link' to='/prizes'>Prizes</Link>
+              <Link className='nav-link' to='/purpose'>Purpose</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
