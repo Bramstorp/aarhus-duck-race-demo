@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/aarhus-duck-race-demo/static/css/main.78f5d38d.chunk.css",
-    "main.js": "/aarhus-duck-race-demo/static/js/main.bd1073f2.chunk.js",
-    "main.js.map": "/aarhus-duck-race-demo/static/js/main.bd1073f2.chunk.js.map",
+    "main.js": "/aarhus-duck-race-demo/static/js/main.bdf800d1.chunk.js",
+    "main.js.map": "/aarhus-duck-race-demo/static/js/main.bdf800d1.chunk.js.map",
     "runtime-main.js": "/aarhus-duck-race-demo/static/js/runtime-main.66df1fac.js",
     "runtime-main.js.map": "/aarhus-duck-race-demo/static/js/runtime-main.66df1fac.js.map",
     "static/css/2.383c0125.chunk.css": "/aarhus-duck-race-demo/static/css/2.383c0125.chunk.css",
-    "static/js/2.4f53bda8.chunk.js": "/aarhus-duck-race-demo/static/js/2.4f53bda8.chunk.js",
-    "static/js/2.4f53bda8.chunk.js.map": "/aarhus-duck-race-demo/static/js/2.4f53bda8.chunk.js.map",
+    "static/js/2.25a2c275.chunk.js": "/aarhus-duck-race-demo/static/js/2.25a2c275.chunk.js",
+    "static/js/2.25a2c275.chunk.js.map": "/aarhus-duck-race-demo/static/js/2.25a2c275.chunk.js.map",
     "index.html": "/aarhus-duck-race-demo/index.html",
     "static/css/2.383c0125.chunk.css.map": "/aarhus-duck-race-demo/static/css/2.383c0125.chunk.css.map",
     "static/css/main.78f5d38d.chunk.css.map": "/aarhus-duck-race-demo/static/css/main.78f5d38d.chunk.css.map",
-    "static/js/2.4f53bda8.chunk.js.LICENSE.txt": "/aarhus-duck-race-demo/static/js/2.4f53bda8.chunk.js.LICENSE.txt"
+    "static/js/2.25a2c275.chunk.js.LICENSE.txt": "/aarhus-duck-race-demo/static/js/2.25a2c275.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66df1fac.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.4f53bda8.chunk.js",
+    "static/js/2.25a2c275.chunk.js",
     "static/css/main.78f5d38d.chunk.css",
-    "static/js/main.bd1073f2.chunk.js"
+    "static/js/main.bdf800d1.chunk.js"
   ]
 }
