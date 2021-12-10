@@ -3,11 +3,19 @@
 FROM node:alpine as build
 
 WORKDIR /app/frontend
+
 COPY ./frontend/package.json ./
 COPY ./frontend/yarn.lock ./
+
 RUN yarn install --silent
+
 COPY ./frontend/ ./
-RUN yarn run build
+
+# Windows 
+RUN export NODE_OPTIONS=--openssl-legacy-provider && yarn build && yarn install --production --ignore-scripts --prefer-offline
+
+# Normal developer
+#RUN yarn run build
 
 # The second stage
 # Copy React static files and start nginx
