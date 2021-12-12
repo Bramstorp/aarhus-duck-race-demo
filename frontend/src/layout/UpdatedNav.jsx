@@ -98,7 +98,7 @@ export const Navigation = () => {
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/event" onClick={handleClose}>Hvor foregår det?</MenuItem>
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/prizes" onClick={handleClose}>Præmier</MenuItem>
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/purpose" onClick={handleClose}>Formål</MenuItem>
-                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/aboutus" onClick={handleClose}>Om os</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/about-us" onClick={handleClose}>Om os</MenuItem>
               </Menu>
             </div>
         </Toolbar>

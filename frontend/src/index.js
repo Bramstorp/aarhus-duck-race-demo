@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { Navigation as Navbar } from './Layout/UpdatedNav'
+import { Navigation as Navbar } from './layout/UpdatedNav'
 import { Sponsors as Sponsor } from './components/Sponsors/Sponsors'
 
 import './index.css';
