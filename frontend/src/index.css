@@ -1,3 +1,13 @@
+/* Import af fonts */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body{
+    background-color: #FCE7A4;
+}
+
 .bg-color{
     background-color: #FFF7CD;
 }
@@ -6,6 +16,89 @@
     background-color: #efa80a;
 }
 
-body{
+App{
     background-color: #FFF7CD;
 }
+
+@media only screen and (min-width: 375px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 375px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 578px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 30px;
+        min-height: 1024px;
+        
+        width: 768px;
+        overflow: scroll;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 992px;
+    }
+
+ }
+
+ @media only screen and (min-width: 1024px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 1024px;
+        min-width: 1005;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    App{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 1200px;
+        min-width: 1000px;
+        width: 100%;
+    }
+    Navbar{
+        max-height: 12px;
+        min-width: 1200px;
+        margin: 0px;
+    }
+    Sponsor{
+        opacity: 0.5;
+    }
+    body{
+        overflow: scroll;
+    }
+    
+ }

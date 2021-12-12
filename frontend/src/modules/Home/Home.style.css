@@ -3,3 +3,80 @@
     height: 246px;
     background-color: red;
 }
+
+
+@media (min-width: 300px) {
+    .homePage{
+        margin-top: -50% !important;
+        padding-top: 0px !important;
+        text-align: center;
+        min-width: 280px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .splash{
+        position: absolute;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .homePage{
+        margin-top: 0% !important;
+        text-align: center;
+        min-width: 100%;
+    }
+    .splash{
+        position: absolute;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .splash{
+        min-width: 25%;
+        min-height: 600px;
+        margin-left: 30%;
+        position: absolute;
+        padding: 0;
+        text-align: center;
+    }
+ }
+
+ /* large devices  like iPad pro(large desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    .homePage{
+        margin-top: 0px;
+        text-align: center;
+        min-width: 1005px;
+    }
+    .splash{
+        min-width: 25%;
+        min-height: 600px;
+        margin-left: 30%;
+        position: absolute;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .splash{
+        min-width: 25%;
+        min-height: 600px;
+        margin-left: 30%;
+        position: absolute;
+        padding: 0;
+        text-align: center;
+    }
+    .homePage{
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 5%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+ }

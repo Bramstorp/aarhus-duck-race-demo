@@ -1,3 +1,118 @@
+
 .color-white{
     color: white !important;
+}
+
+body{
+    overflow: hidden;
+}
+
+.navMain{
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px; 
+}
+
+/* Navgation Logo Centered or not */
+@media only screen and (max-width: 991px) {
+    .homeLogo{
+        position: relative;
+        left: 45%;
+    }
+}
+
+
+/* Small devices (landscape phones, 375px and up) */
+@media only screen and (min-width: 375px) {
+    .navCollapse{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 375px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .navCollapse{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 578px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navCollapse{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 400vh;
+        min-width: 768px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navCollapse{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 992px;
+    }
+
+ }
+
+ @media only screen and (min-width: 1024px) {
+    .navCollapse{
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #FCE7A4;
+        font-size: 40px;
+        min-height: 1024px;
+        min-width: 1005;
+    }
+    
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navCollapse{
+        display: none !important;
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #EFA80A;
+        font-size: 25px;
+        min-height: 0px;
+        float: right;
+    }
+    Navbar{
+        min-width: 1200px;
+    }
+    a{
+        position: relative;
+    }
+
+ }
+
+
+
+
+#navbar{
+        display: flex;
+        height: 100%;
+        padding: 0px;
+        margin: 0px; 
+    }
+
+#container{
+    padding: 0px;
+    margin: 0px; 
 }

@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+
+import { Navigation as Navbar } from './Layout/UpdatedNav'
+import { Sponsors as Sponsor } from './components/Sponsors/Sponsors'
+
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/aarhus-duck-race-demo">
-      <App />
-    </BrowserRouter>
+    <Router basename="/skp-projekt-aarhus-duck-race">
+    <Navbar />
+    <App />
+    <Sponsor />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
