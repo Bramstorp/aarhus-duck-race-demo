@@ -35,7 +35,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "stylelint": "node_modules/.bin/stylelint src/**/*.scss",
+    "stylelint:fix": "node_modules/.bin/prettier --write --loglevel warn \"src/**/*.scss\"; node_modules/.bin/stylelint --fix src/**/*.scss"
   },
   "eslintConfig": {
     "extends": [
